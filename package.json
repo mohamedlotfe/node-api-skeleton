@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "jest --silent"
+    "test": "jest --silent",
+    "test-w": "jest --watchAll"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
