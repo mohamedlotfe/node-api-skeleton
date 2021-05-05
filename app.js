@@ -3,7 +3,7 @@ var express = require('express');
 var cors = require('cors')
 
 var indexRouter = require('./components/users/usersAPI');
-require('./db/mysql')
+require('./db/mongodb')
 
 var app = express();
 app.use(cors())
